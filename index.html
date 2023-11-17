@@ -13,30 +13,50 @@
 <header>
     <nav>
         <ul>
-            <li id="logo"> <i>ARIN</i></li>
+            <div class="head">
+            <div  id="logo"><li> <i>ARIN</i></li></div>
+            <div>
             <li><a  href="#About">About </a></li>
             <li><a href="#Contact">Contact</a></li>
             <li><a href="#Resume">Resume</a></li>
             <li><a href="#Work">Work</a></li>
+            </div>
+        </div>
         </ul>
 </nav>
  </header>
 
 <!--here is the main page's content-->
 <main>
+    <div>
     <h1>Hello there!</h1>
 <p>I am <b>Maryam Oladipo</b> a Professional web developer known for her creativity. All you have to do is to tell me your imaginary website and I will help you visualize it. <br>
 Perhaps you are struggling with coming up with your website look, you can watch this video below; </p>
 
 <!--A youtube to help my client visualize the website they want but do not know to explian it.-->
-<iframe src= "https://www.youtube.com/embed/h2VjnKPdfBU" "<iframe width="320" height="560" title="5 Amazing Design Inspiration Websites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>" frameborder="0"></iframe>
+<div class="video">
+    <iframe src= "https://www.youtube.com/embed/h2VjnKPdfBU" "<iframe width="600" height="400" title="5 Amazing Design Inspiration Websites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>" frameborder="0"></iframe>
+</div>
+</div>
+
+<!--Here is the main section that will be used for the About page-->
+<aside class="about">
+    <a name="About"></a>
+<h2>ABOUT ME</h2>
+
+    <p>I am a web developer who loves to create beautiful and interactive websites. 
+    I have a passion for web development and I am always eager to build clients dream website.
+ <br> As a developer I always ensure the web pages are user friendly.
+</p> 
+</aside>
 
 <!--The contact will include my information and  that of interested clients to help keep intouch with them-->
+
+<div class="contact">
 <a name="Contact"></a> 
-<br> <b>Contact NOW!!!</b> to help bring your dream website to life.
+ <b>CONTACT NOW!!!</b> to help bring your dream website to life.
     <h3>PHONE NUMBER: 08109071113</h3>
     <h3>Email: oladipomaryam8@gmail.com</h3>
-    <br>
 <h2>Keep In Touch</h2>
 <form>
     <div>
@@ -61,36 +81,28 @@ Perhaps you are struggling with coming up with your website look, you can watch 
 <br>
     <button>SEND</button>
 </form>
+</div>
 
-<!--The about me info is expected to be in a sidebar for clearer view-->
-<aside>
-    <a name="About"></a>
-<h2>About Me</h2>
-    <p>I am a web developer who loves to create beautiful and interactive websites. <br>
-    I have a passion for web development and I am always eager to build clients dream website. 
-    As a developer I always ensure the web pages are user friendly.
-    <img src="Full-Stack-Developer pic.png" alt=""width='600' height="500"> <br>
-    </p> 
-</aside>
-
-
-<section>
+<hr>
+<div class="main">
+<section class="resume">
     <!--The resume contains more information about me-->
 <a name="Resume"></a>
-    <h2>Resume</h2>
+    <h2>RESUME</h2>
         <h3>Bio</h3>
    <b>Name:</b>Maryam Oladipo <br>
     <b>Email Address:</b>oladipomaryam8@gmail.com <br>
     <b>Phone No:</b>08109071113 <br>
    <b> GitHub Profile:</b> Arinola23 <br>
-    
+    <div class="dash">
     <h3>Summary:</h3>
-   <p>I am an enthusiastic and detail-oriented web developer with 1 year of experience creating and implementing innovative web designs and user experiences. 
+   <p class="para">I am an enthusiastic and detail-oriented web developer with 1 year of experience creating and implementing innovative web designs and user experiences. 
     <br> Proven expertise in HTML, CSS, JavaScript, front-end and back-end frameworks. Adept at collaborating with clients to drive project success. 
     <br> I am also Keen on staying up-to-date with the latest trends and technologies in web development.
     </p>
-
+</div>
     <div>
+        <div class="line"></div>
   <h3>  Skills:</h3>
     <b>Languages:</b>HTML5, CSS3, JavaScript <br>
     <b>Front-End:</b>React.js <br>
@@ -104,11 +116,10 @@ Perhaps you are struggling with coming up with your website look, you can watch 
 </div>
 </section>
 
-<hr>
 <!--These are my working experiences-->
-<section>
+<section class="work">
 <a name="Work"></a>
-    <h2>Work</h2>
+    <h2>WORK EXPERIENCE</h2>
     
     <h3>Projects;</h3>
     <div>
@@ -130,18 +141,21 @@ Perhaps you are struggling with coming up with your website look, you can watch 
      <b>Date Completed:</b> August 2023 <br>
     <b>Description:</b> Built online learning platforms.
     </div>
-
+</div>
+</section>
+</div>
 </main>
-<hr>
-<footer>
-    <!--The footer contains the developers details and also internal linking for easy info access by the users-->
 
-               <br>  <a href="#About">About </a>
-               <br> <a href="#Contact">Contact</a>
-               <br> <a href="#Resume">Resume</a>
-              <br>  <a href="#Work">Work</a>
-            
+<!--Here is the footer that will be used across all the pages on the website having local links-->
+<footer class="foot">
+<div >
+      <a  href="#About">About </a>
+     <a href="#Contact">Contact</a>
+     <a href="#Resume">Resume</a>
+      <a href="#Work">Work</a>
     <p>Copyright &copy; 2023 </p>
+</div>
+
 </footer>
 </body>
 
